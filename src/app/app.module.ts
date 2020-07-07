@@ -15,6 +15,7 @@ import { MainComponent } from './main/main.component';
 import {MovieService} from './movie.service';
 import {MovieApiService} from './movie-api.service';
 import {ApiService} from './api.service';
+import { SignUpLoginComponent } from './sign-up-login/sign-up-login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ApiService} from './api.service';
     HeroButtonComponent,
     ItemComponent,
     ListToggleComponent,
-    MainComponent
+    MainComponent,
+    SignUpLoginComponent
   ],
   imports: [
     BrowserModule,
